@@ -1,0 +1,201 @@
+@charset "UTF-8";
+
+*,*::after, *::before{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: tahoma, sans-serif;
+	background-color: #f0f2f5;
+}
+
+.cardo{
+	display: flex;
+}
+.carded, .carde{
+	width: 10rem;
+}
+.carded, .carde{
+	border-radius: 10px !important;
+}
+.sese{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.carde{
+	margin-left: 1rem;
+	/*position: relative;*/
+	background-color: #f0f2f5;
+	padding-bottom: 0;
+}
+.face{
+	color: rgba(0, 102, 255, 0.9);
+	font-weight: 600;
+	font-size: 35px;
+	font-style: "Helvetica neue", sans-serif;
+}
+
+.recent{
+	color: rgba(8,8,8,0.9);
+	font-size: 30px;
+	margin-bottom: 0;
+	font-weight: lighter !important;
+}
+.click{
+	color: #606770;
+	margin-top: 0;
+	font-weight: lighter !important;
+	font-size: 15px;
+}
+.img{
+	/*position: absolute;*/
+	width: 45px;
+	height: auto;
+	max-width: 100%;
+	margin-top: 4rem;
+	margin-left: 3.5rem;
+
+}
+.st{
+	/*position: absolute;*/
+	margin-left: 13px !important;
+	margin-bottom: 1px !important;
+}
+
+/*INPUT*/
+.div{
+	margin-left: 4rem !important;
+	width: 75%;
+	margin-top: 7rem;
+	background-color: #ffffff !important;
+	border-radius: 10px;
+	box-shadow: 4px 4px 30px 8px #dadcde;
+	/*padding: 2px !important;*/
+}
+
+.create{
+	width: 60%;
+	padding: 10px !important;
+	font-size: 16px;
+	font-weight: bold;
+	margin: auto;
+}
+.log{
+	padding: 10px !important;
+	font-weight: bold;
+	font-size: 18px;
+}
+.log:hover{
+	border: none;
+	outline: none;
+}
+input{
+	opacity: 0.7;
+	/*padding-left: 1px; */
+}
+.pico{
+	font-size: 15px;
+	margin-left: 7rem !important;
+	color: rgb(8,8,8); 
+}
+
+/*RESPONSIVE*/
+
+@media screen and (max-width: 900px){
+	.at{
+		margin-left:-3rem !important;
+		margin-right: -3rem !important;
+	}
+	.div{
+		margin-left: 2rem !important;
+		width: 100%;
+
+		/*padding: -10rem;*/
+	}
+	.carded, .div, .pico{
+		margin-bottom: 0 !important;
+	}
+	.create{
+		font-size: 14px;
+	}
+
+}
+
+@media screen and (max-width: 667px){
+	.div{
+		padding: 30px;
+		padding-top: 50px !important;
+		margin-top: 0 !important;
+		margin-left: -1rem !important;
+	}
+	.carded,.carde{
+		width: 15rem;
+		margin-bottom: 0 !important;
+	}
+	.pico{
+		margin-bottom: 10px !important;
+		margin-top: 5px !important;
+		margin-left: 4rem !important;
+		font-size: 16px;
+	}
+	.img{
+		/*position: absolute;*/
+		width: 50px;
+		height: auto;
+		max-width: 100%;
+		margin-top: 5rem;
+		margin-left: 6rem;
+	}
+	.st{
+		font-size: 18px;
+	}
+}
+
+
+
+@media screen and (max-width: 468px){
+
+	.carded{
+		width: 18rem;
+		max-width: 100%;
+		height: auto;
+		margin-bottom: 0;
+		
+	}
+	.at{
+		margin-left: 0 !important;
+	}
+	.mana{
+		display: none;
+	}
+	.div{
+		margin-top: 0;
+		margin-right: 10rem !important;
+		margin-left: 0 !important;
+		width: 100%;
+		/*height: 200px;*/
+		padding: 20px;
+		background-color: #ffffff !important;
+		border-radius: 10px;
+		box-shadow: 4px 4px 30px 8px #dadcde;
+	}
+
+	.create{
+		width: 60%;
+		padding: 10px !important;
+		font-size: 14px;
+		font-weight: bold;
+		margin: auto;
+	}
+
+	.pico{
+		margin-left: 2rem !important;
+		margin-bottom: 1rem !important;
+		padding: 0 auto;
+		font-size: 14px;
+	}
+}
+
